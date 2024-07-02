@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HNG Stage One Task</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+        <main>
+            <div class="img-div">
+                <img data-testid="slackProfilePicture" src="./images/profile_pic.jpg" alt="">
+            </div>
+
+            <div class="profile-details">
+                <h2 data-testid="slackDisplayName">Jacob_Xav</h2>
+
+                <div class="tittle"><h4>Frontend Developer</h4></div>
+
+                <div class="time_date">
+                    <p class="current-time" data-testid="currentTimeUTC"> </p><span class="session"> </span>
+                    <span>|</span>
+                    <p class="current-day" data-testid="currentDay"> </p>
+                </div>
+                
+                <div class="contact">
+                    <p data-testid="slackEmail">dev.francisjacob@gmail.com</p>
+                </div>
+            </div>
+            <hr>
+            <div class="goals-section">
+                <p class="goal-text">My name is Francis Jacob, i am a frontend developer.
+                    Over the next two years, my goal is to master modern JavaScript frameworks such as React and Vue, 
+                    while also gaining proficiency in TypeScript for robust and type-safe coding. 
+                    I aim to also learn the MERN stack (MongoDB, Express.js, React, Node.js), 
+                    enhancing my full-stack development skills. I plan to deepen my understanding of state management patterns and libraries 
+                    including Redux and Vuex. I'm also keen on learning more about performance optimization techniques, accessibility standards, 
+                    and progressive web apps to build user-friendly, and accessible web applications.
+                </p>
+            </div> 
+            <hr>   
+
+            <div class="additional-links">
+                <a data-testid="hngLink" href="http://hng.tech/learn" target="_blank" rel="noopener"> HNG INTERNSHIP</a>
+                <a data-testid="keywordLink" href="http://keyword.dog/" target="_blank" rel="noopener">KEYWORD.DOG</a>
+                <a data-testid="scrapeanywebLink" href="http://scrapeanyweb.site/" target="_blank" rel="noopener">SCRAP ANY WEBSITE</a>
+            </div>
+        </main>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

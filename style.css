@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #e6e0e0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.goal-text{
+    font-weight: normal;
+    line-height: 2;
+    margin: 0.5rem 0;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.time_date{
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.contact{
+    margin: 1rem 0;
+}
+
+.tittle{
+    background-color: #282828;
+    color: #fcfcfc;
+    padding: 0.5rem 0;
+    width: 30%;
+    margin: 1rem auto;
+}.tittle:hover{
+    background-color: #e6e0e0;
+    color: #282828;
+    border: 2px solid #282828;
+}
+
+
+.goals-section{
+    width: 80%;
+    margin: auto;
+}
+
+.additional-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+a{
+    font-weight: bold;
+    color: #282828;
+    text-decoration: none;
+}a:hover{
+    color: dodgerblue;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 700px) {
+
+    .goal-text{
+        text-align: left;
+    }
+    
+    .additional-links{
+        height:6rem;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
